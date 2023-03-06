@@ -1,0 +1,31 @@
+import { AppBar, Toolbar, Typography, Button } from '@mui/material';
+import { Box } from '@mui/system';
+
+function NavigationBar() {
+    const toolbarStyle = {
+        display: 'flex' ,
+        flexDirection:'row',
+        backgroundColor: '#E78F27'
+      };
+  return (
+    <AppBar position="static">
+      <Toolbar style={toolbarStyle} >
+      <img src={require('../Logo1.png')}alt="Logo" width={68} height={51} sx={{ mr: 1, borderRadius:'5px' }} />
+        <Typography variant="h6" sx={{ display: 'flex', alignItems: 'center' }} ml={1}>
+          Eloker
+        </Typography>
+        <Box ml={1}>  
+            <Button color="inherit" sx={{ mr: 2 }}>Find Game</Button>
+            <Button color="inherit" sx={{ mr: 2 }}>Leaderboards</Button>
+        </Box>
+        <Box marginLeft={'auto'}> 
+            <Button variant="inherit" color="inherit" sx={{ mr: 2 }}>Login</Button>
+            <Button variant="inherit" color="inherit">Sign Up</Button>
+        </Box>
+       
+      </Toolbar>
+    </AppBar>
+  );
+}
+
+export default NavigationBar;
