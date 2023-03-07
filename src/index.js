@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 document.body.style = 'background-color: rgb(231 143 39 / 0.28 ) '
 root.render(
   <React.StrictMode>
-   <NavigationBar></NavigationBar>
+   <App></App>
   </React.StrictMode>
 );
 

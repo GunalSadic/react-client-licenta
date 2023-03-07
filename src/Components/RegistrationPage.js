@@ -2,9 +2,10 @@ import React from 'react';
 import RegistrationForm from './RegistrationForm';
 import { Box } from '@mui/system';
 import { Grid } from '@mui/material';
+import NavigationBar from './NavigationBar';
 function RegistrationPage() {
     return (
-      
+      <Box>
         <Grid
         container
         spacing={0}
@@ -13,8 +14,9 @@ function RegistrationPage() {
         justifyContent="center"
         style={{ minHeight: '100vh'}}
     >
+     
          <RegistrationForm />
-      </Grid> 
+      </Grid> </Box>
     );
   }
   
