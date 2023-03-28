@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import RegistrationPage from './Components/RegistrationPage';
 import CardList from './Components/CardList';
 import LeaderboardPage from './Components/LeaderboardPage';
+import Table from './Components/Table';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Login" element = {<LoginPage/>}></Route>
         <Route path ="/Register" element = {<RegistrationPage/>}></Route>
         <Route path="/Leaderboards" element = {<LeaderboardPage/>}></Route>
+        <Route path="/Table" element ={<Table/>}></Route>
       </Route>
     </Routes>
   </Router>

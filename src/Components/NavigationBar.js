@@ -17,7 +17,7 @@ function NavigationBar() {
           Eloker
       </Typography>
         <Box ml={1}>  
-            <Button color="inherit" sx={{ mr: 2 }}>Find Game</Button>
+            <Button color="inherit" sx={{ mr: 2 }} href = "/Table">Find Game</Button>
             <Button color="inherit" sx={{ mr: 2 }} href ="/Leaderboards">Leaderboards</Button>
         </Box>
         <Box marginLeft={'auto'}> 

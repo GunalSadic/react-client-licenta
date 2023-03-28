@@ -1,0 +1,43 @@
+.card-container {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .card {
+    width: 150px;
+    height: 225px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+  }
+  
+  .card-top,
+  .card-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .card-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .card-suit {
+    font-size: 72px;
+    line-height: 1;
+    margin-top: -25px;
+  }
+  
+  .card-rank {
+    font-size: 48px;
+    line-height: 1;
+  }
+  
